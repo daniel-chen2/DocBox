@@ -4,15 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './templates/navbar/navbar.component';
-import { HomepageComponent } from './pages/homepage/homepage.component';
-import { SearchbarComponent } from './helpers/searchbar/searchbar.component';
+
+// forms
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    HomepageComponent,
-    SearchbarComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
