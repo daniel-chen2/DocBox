@@ -1,0 +1,9 @@
+<p>Search for application</p>
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+    <input name="applicationId" ngModel required #applicationId="ngModel">
+    <button>Submit</button>
+</form>
+
+<p>Application ID {{ applicationId.value }}</p>
+<p>Form value: {{ f.value | json }}</p>
+<p>Form valid: {{ f.valid }}</p>

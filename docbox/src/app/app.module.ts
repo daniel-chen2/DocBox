@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomepageModule } from './pages/homepage/homepage.module';
+import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './templates/navbar/navbar.component';
 
 // forms
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +13,8 @@ import { NavbarComponent } from './templates/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomepageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

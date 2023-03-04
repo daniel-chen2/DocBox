@@ -4,6 +4,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent }
+  { path: '/application', component: HomepageComponent }
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
