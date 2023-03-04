@@ -1,0 +1,5 @@
+<p>Search for application</p>
+<form #f="ngform" (ngSubmit)="onSubmit(f)" novalidate>
+    <input name="applicationId" ngModel required #applicationId="ngModel">
+    <button>Submit</button>
+</form>

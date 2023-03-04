@@ -1,15 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ApplicationComponent } from './application.component';
-
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [
-    ApplicationComponent
-  ],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule, 
+    FormsModule
   ]
 })
 export class ApplicationModule { }
