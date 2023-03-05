@@ -1,5 +1,5 @@
 <p>Search for application</p>
-<form #f="ngform" (ngSubmit)="onSubmit(f)" novalidate>
-    <input name="applicationId" ngModel required #applicationId="ngModel">
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+    <input type="file" ngModel required #applicationId="ngModel">
     <button>Submit</button>
 </form>
